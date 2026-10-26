@@ -1,0 +1,20 @@
+{
+ "trigram": {
+  "top1": 0.16380343587694765,
+  "top3": 0.28286056731921694,
+  "perplexity": 230.4896171441544
+ },
+ "gru": {
+  "top1": 0.1658010387534958,
+  "top3": 0.28685577307231325,
+  "perplexity": 148.0096271065425
+ },
+ "tokens": 454768,
+ "vocab": 4000,
+ "books": [
+  "carroll-alice",
+  "austen-emma",
+  "austen-persuasion",
+  "austen-sense"
+ ]
+}

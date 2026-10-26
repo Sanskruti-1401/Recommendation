@@ -1,0 +1,12 @@
+tokens 454,768 | vocab 4,000 | train 432,029 | val 22,739
+trigram lambdas (0.6, 0.3, 0.1) {'top1': np.float64(0.164), 'top3': 0.283, 'perplexity': 230.49}
+trigram lambdas (0.5, 0.35, 0.15) {'top1': np.float64(0.163), 'top3': 0.281, 'perplexity': 212.857}
+trigram lambdas (0.4, 0.4, 0.2) {'top1': np.float64(0.163), 'top3': 0.282, 'perplexity': 203.06}
+trigram lambdas (0.3, 0.5, 0.2) {'top1': np.float64(0.163), 'top3': 0.282, 'perplexity': 199.022}
+epoch 1 | train loss 5.001 | val top3 0.262 ppl 181.9 | 149s
+epoch 2 | train loss 4.599 | val top3 0.269 ppl 162.0 | 298s
+epoch 3 | train loss 4.461 | val top3 0.280 ppl 157.8 | 449s
+epoch 4 | train loss 4.269 | val top3 0.293 ppl 146.6 | 606s
+epoch 5 | train loss 4.202 | val top3 0.287 ppl 148.0 | 757s
+trigram {'top1': np.float64(0.16380343587694765), 'top3': 0.28286056731921694, 'perplexity': 230.4896171441544}
+gru {'top1': np.float64(0.1658010387534958), 'top3': 0.28685577307231325, 'perplexity': 148.0096271065425}
